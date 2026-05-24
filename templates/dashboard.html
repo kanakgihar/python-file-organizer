@@ -1,6 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
 
     <title>Smart File Automation</title>
 
@@ -11,46 +17,94 @@
 
 <body>
 
-<div class="container">
+    <div class="background-glow"></div>
 
-    <h1>🚀 Smart File Automation Dashboard</h1>
+    <div class="container">
 
-    <div class="cards">
+        <header>
 
-        <div class="card">
-            <h2>Total Files</h2>
-            <p>{{ stats.total_files }}</p>
-        </div>
+            <h1>
+                🚀 Smart File Automation
+            </h1>
 
-        <div class="card">
-            <h2>Documents</h2>
-            <p>{{ stats.documents }}</p>
-        </div>
+            <p>
+                Intelligent File Sorting Dashboard
+            </p>
 
-        <div class="card">
-            <h2>Videos</h2>
-            <p>{{ stats.videos }}</p>
-        </div>
+        </header>
 
-        <div class="card">
-            <h2>Images</h2>
-            <p>{{ stats.images }}</p>
-        </div>
+        <section class="stats-grid">
+
+            <div class="card">
+
+                <h2>Total Files</h2>
+
+                <span>{{ stats.total_files }}</span>
+
+            </div>
+
+            <div class="card">
+
+                <h2>Documents</h2>
+
+                <span>{{ stats.documents }}</span>
+
+            </div>
+
+            <div class="card">
+
+                <h2>Videos</h2>
+
+                <span>{{ stats.videos }}</span>
+
+            </div>
+
+            <div class="card">
+
+                <h2>Images</h2>
+
+                <span>{{ stats.images }}</span>
+
+            </div>
+
+        </section>
+
+        <section class="features">
+
+            <h3>✨ Features</h3>
+
+            <div class="feature-list">
+
+                <div class="feature-item">
+                    📂 Automatic File Sorting
+                </div>
+
+                <div class="feature-item">
+                    ⚡ Real-Time Automation
+                </div>
+
+                <div class="feature-item">
+                    🧠 Smart PDF Analysis
+                </div>
+
+                <div class="feature-item">
+                    📊 Live Dashboard Analytics
+                </div>
+
+                <div class="feature-item">
+                    🔒 Secure File Handling
+                </div>
+
+                <div class="feature-item">
+                    ☁️ Cloud Deployment Ready
+                </div>
+
+            </div>
+
+        </section>
 
     </div>
-
-    <div class="info-box">
-        <h3>Automation Features</h3>
-
-        <ul>
-            <li>Automatic File Sorting</li>
-            <li>Smart File Renaming</li>
-            <li>Error Handling</li>
-            <li>Professional Dashboard UI</li>
-        </ul>
-    </div>
-
-</div>
 
 </body>
+
 </html>
