@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Python File Organizer is Running!"
+    return "<h1>Flask Working Successfully</h1>"
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)

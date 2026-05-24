@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Smart File Automation</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🚀 Smart File Automation Dashboard</h1>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>Total Files</h2>
+            <p>{{ stats.total_files }}</p>
+        </div>
+
+        <div class="card">
+            <h2>Documents</h2>
+            <p>{{ stats.documents }}</p>
+        </div>
+
+        <div class="card">
+            <h2>Videos</h2>
+            <p>{{ stats.videos }}</p>
+        </div>
+
+        <div class="card">
+            <h2>Images</h2>
+            <p>{{ stats.images }}</p>
+        </div>
+
+    </div>
+
+    <div class="info-box">
+        <h3>Automation Features</h3>
+
+        <ul>
+            <li>Automatic File Sorting</li>
+            <li>Smart File Renaming</li>
+            <li>Error Handling</li>
+            <li>Professional Dashboard UI</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
